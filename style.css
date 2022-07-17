@@ -1,0 +1,267 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html{
+    background-color: #000;
+   overflow-x: hidden;
+    scrollbar-color: #fff black;
+    scrollbar-width: thin;
+    color:white;
+    
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    font-size: 5vw;
+}
+
+body{
+
+scrollbar-color:  #fff black;
+scrollbar-width: thin;
+}
+::-webkit-scrollbar {
+    width: 4px !important;
+   
+  }
+  ::-webkit-scrollbar-track {
+    -webkit-box-shadow: none !important;
+    background-color: black;
+  }
+  ::-webkit-scrollbar-thumb {
+    background:#fff; 
+    border-radius: 10px;
+    
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #fff; 
+  }
+  #logo,#logoVideo{
+    width:30%;
+    margin-left:35%;
+    margin-top: 10vw;
+    position:absolute;
+    filter: drop-shadow(0px 0px 40px black);
+    filter: blur(0px);
+  }
+ 
+  #haupt{
+    opacity: 0;
+    text-align: left;
+    filter: blur(40px);
+  }
+  h1{
+    margin-left:2vw;
+  }
+  .flieger{
+    width:15%;
+    margin-left:115%;
+    margin-top:25vw;
+    transform:rotate(0deg),scale(1);
+    
+    transition: margin 5s;
+    transition-timing-function: linear;
+  }
+  #canvas{
+    width:102%;
+    margin-left: -1%;
+
+    margin-top:-40vw;
+    position: relative;
+    z-index:99;
+  }
+
+  #lebenslauf{
+    width:35%;
+    margin-left:26.5%;
+    margin-top:-72vw;
+    position:absolute;
+    left:0;
+  
+  }
+  #mc{
+    margin-top:-5vw; 
+    font-family: 'Poppins', sans-serif;
+
+    position:absolute;
+    margin-top:122%;
+  }
+  #mcU{
+    opacity:1;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    position:absolute;
+    margin-top:134%;
+    
+  }
+  h4{
+    margin-left:2vw;
+    margin-top:-9vw;
+    font-size: 3.5vw;
+
+    
+  }
+
+  #profil{
+    width:55%;
+    margin-left: 2%;
+    font-size: 50%;
+    float: left;
+    margin-top:2%;
+    text-align: justify;
+    margin-bottom: 10%;
+  }
+  #bild{
+    width:35%;
+    float: left;
+  }
+  #bild img{
+    width:100%;
+  }
+  #rechtsText{
+    text-align: right;
+  }
+  #name{
+    font-size: 290%;
+    font-family: 'Bebas Neue', cursive;
+
+  }
+  #next{
+    position:absolute;
+    margin-top:207%;
+    left:100%;
+    width:100%;
+
+  }
+  #start{
+    position: absolute;
+    left:0%;
+    width:100%;
+  }
+
+  #kategorie1{
+    position:absolute;
+    width:21%;
+    Font-size:60%;
+    margin-top:-11.5%;
+    margin-left:7%;
+    text-align: right;
+letter-spacing: -5px;
+   z-index: 100;
+  opacity:0;
+ 
+
+  height:0em;
+  padding-right: 1em;
+  transition:  1s;
+
+  }
+  #kategorie2{
+    position:absolute;
+    width:21%;
+    Font-size:60%;
+    margin-top:0.5%;
+    margin-left:62%;
+    text-align: left;
+letter-spacing: -5px;
+z-index: 100;
+opacity:0;
+
+height:0em;
+padding-right: 4em;
+transition:  1s;
+  }
+  #kategorie3{
+    position:absolute;
+    width:32%;
+    Font-size:60%;
+    margin-top:17.5%;
+    margin-left:9%;
+    text-align: right;
+letter-spacing: -5px;
+z-index: 100;
+ opacity:0;
+
+ height:0em;
+ padding-right: 1em;
+ transition:  1s;
+  }
+  #kategorie4{
+    position:absolute;
+    width:21%;
+    Font-size:60%;
+    margin-top:36.5%;
+    margin-left:62%;
+    text-align: left;
+letter-spacing: -5px;
+z-index: 100;
+opacity:0;
+
+height:0em;
+padding-right: 1em;
+transition:  1s;
+  }
+  #kategorie5{
+    position:absolute;
+    width:32%;
+    Font-size:60%;
+    margin-top:46.5%;
+    margin-left:-7%;
+    text-align: right;
+letter-spacing: -5px;
+z-index: 100;
+opacity:0;
+
+height:0em;
+padding-right: 1em;
+transition:  1s;
+  }
+  #kategorie6{
+    position:absolute;
+    width:21%;
+    Font-size:60%;
+    margin-top:60%;
+    margin-left:49%;
+    text-align: left;
+letter-spacing: -5px;
+z-index: 100;
+opacity:0;
+
+height:0em;
+padding-right: 1em;
+transition:  1s;
+}
+#kategorie7{
+  position:absolute;
+  width:20%;
+  Font-size:60%;
+  margin-top:73.5%;
+  margin-left:7%;
+  text-align: right;
+letter-spacing: -5px;
+z-index: 100;
+opacity:0;
+
+height:0em;
+padding-right: 1em;
+transition:  1s;
+}
+  a{
+    color:white;
+    text-decoration: none;
+    transition: 0.5s;
+
+  }
+  a:hover{
+   letter-spacing: 0px;
+    color:#ff3c00;
+    text-shadow: 0 0 10px #ff3c00,0 0 20px #ff3c00;
+  }
+
+  .leuchte{
+    border-radius: 5em;
+    width:20px;
+    height:20px;
+    background-color: #fff;
+    position:absolute;
+    top:20%;
+    box-shadow: 0px 0px 200px 100px #fff,0px 0px 200px 200px #fff,0px 0px 300px 200px #fff;
+  }
